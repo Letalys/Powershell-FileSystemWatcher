@@ -1,0 +1,29 @@
+[
+    {
+        "WatcherName": "MyWatcher1",
+        "Path": "D:\\Test1",
+        "Filter":"*",
+        "NotifyFilters": ["Attributes","CreationTime","DirectoryName","FileName","LastAccess","LastWrite","Security","Size"],
+        "EventHandler": ["Changed","Created","Deleted","Renamed"],
+        "IncludeSubdirectories": true,
+        "OutputDir":".\\outputs"
+    },
+    {
+        "WatcherName": "MyWatcher2",
+        "Path": "D:\\Test2",
+        "Filter":"*.txt",
+        "NotifyFilters": ["Attributes","CreationTime","DirectoryName","FileName","LastAccess","LastWrite","Security","Size"],
+        "EventHandler": ["Changed","Created","Deleted","Renamed"],
+        "IncludeSubdirectories": false,
+        "OutputDir":".\\outputs"
+    },
+    {
+        "WatcherName": "MyWatcher3",
+        "Path": "D:\\MyFile.txt",
+        "Filter":"",
+        "NotifyFilters": ["Attributes","CreationTime","DirectoryName","FileName","LastAccess","LastWrite","Security","Size"],
+        "EventHandler": ["Changed","Created","Deleted","Renamed"],
+        "IncludeSubdirectories": false,
+        "OutputDir":".\\outputs"
+    }
+]
