@@ -92,6 +92,14 @@ __Other Exemples__
 ]
 
 ```
+
+
+## Suggest Idea
+
+I think it is possible to embed code from JSON directly so that each Watcher has its own custom event handling.
+
+It would suffice to add new attributes to convert to powershell code using for example Invoke-Expression.
+
 ## Links
 https://github.com/Letalys/Powershell-FileSystemWatcher
 
